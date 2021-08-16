@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{068934E5-D353-46C1-8CCD-3A016787A73D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>main</RootNamespace>
+    <AssemblyName>main</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connectionstring.cs" />
+    <Compile Include="CRPVINGKS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPVINGKS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRPVINPHIEUTU.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPVINPHIEUTU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRPVINSHK.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPVINSHK.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRPVINTTTV.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPVINTTTV.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRPVTHONGKE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPVTHONGKE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmdkCMND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdkCMND.Designer.cs">
+      <DependentUpon>frmdkCMND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdkTTTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdkTTTV.Designer.cs">
+      <DependentUpon>frmdkTTTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdschuacoCMND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdschuacoCMND.Designer.cs">
+      <DependentUpon>frmdschuacoCMND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdsPhieuTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdsPhieuTu.Designer.cs">
+      <DependentUpon>frmdsPhieuTu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdsSHK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdsSHK.Designer.cs">
+      <DependentUpon>frmdsSHK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdsTDCH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdsTDCH.Designer.cs">
+      <DependentUpon>frmdsTDCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdsTTTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdsTTTV.Designer.cs">
+      <DependentUpon>frmdsTTTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmphieutu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmphieutu.Designer.cs">
+      <DependentUpon>frmphieutu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_IN_GKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_IN_GKS.Designer.cs">
+      <DependentUpon>FRM_IN_GKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_IN_PHIEU_TU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_IN_PHIEU_TU.Designer.cs">
+      <DependentUpon>FRM_IN_PHIEU_TU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_IN_SHK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_IN_SHK.Designer.cs">
+      <DependentUpon>FRM_IN_SHK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_IN_TTTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_IN_TTTV.Designer.cs">
+      <DependentUpon>FRM_IN_TTTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_THONG_KE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_THONG_KE.Designer.cs">
+      <DependentUpon>FRM_THONG_KE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmĐKSHKVSNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmĐKSHKVSNT.Designer.cs">
+      <DependentUpon>frmĐKSHKVSNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdsCMND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdsCMND.Designer.cs">
+      <DependentUpon>frmdsCMND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDSGKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDSGKS.Designer.cs">
+      <DependentUpon>frmDSGKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtachSHK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtachSHK.Designer.cs">
+      <DependentUpon>frmtachSHK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmupdateCMND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmupdateCMND.Designer.cs">
+      <DependentUpon>frmupdateCMND.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmupdateGKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmupdateGKS.Designer.cs">
+      <DependentUpon>frmupdateGKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmupdateNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmupdateNT.Designer.cs">
+      <DependentUpon>frmupdateNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmupdateSHK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmupdateSHK.Designer.cs">
+      <DependentUpon>frmupdateSHK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNT.Designer.cs">
+      <DependentUpon>frmAddNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGKS.Designer.cs">
+      <DependentUpon>frmGKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSHK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSHK.Designer.cs">
+      <DependentUpon>frmSHK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddGKS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGKS.Designer.cs">
+      <DependentUpon>frmAddGKS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CRPVINGKS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPVINGKS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRPVINPHIEUTU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPVINPHIEUTU.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRPVINSHK.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPVINSHK.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRPVINTTTV.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPVINTTTV.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRPVTHONGKE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPVTHONGKE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdkCMND.resx">
+      <DependentUpon>frmdkCMND.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdkTTTV.resx">
+      <DependentUpon>frmdkTTTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdschuacoCMND.resx">
+      <DependentUpon>frmdschuacoCMND.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdsPhieuTu.resx">
+      <DependentUpon>frmdsPhieuTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdsSHK.resx">
+      <DependentUpon>frmdsSHK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdsTDCH.resx">
+      <DependentUpon>frmdsTDCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdsTTTV.resx">
+      <DependentUpon>frmdsTTTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmphieutu.resx">
+      <DependentUpon>frmphieutu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_IN_GKS.resx">
+      <DependentUpon>FRM_IN_GKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_IN_PHIEU_TU.resx">
+      <DependentUpon>FRM_IN_PHIEU_TU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_IN_SHK.resx">
+      <DependentUpon>FRM_IN_SHK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_IN_TTTV.resx">
+      <DependentUpon>FRM_IN_TTTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_THONG_KE.resx">
+      <DependentUpon>FRM_THONG_KE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmĐKSHKVSNT.resx">
+      <DependentUpon>frmĐKSHKVSNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdsCMND.resx">
+      <DependentUpon>frmdsCMND.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDSGKS.resx">
+      <DependentUpon>frmDSGKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtachSHK.resx">
+      <DependentUpon>frmtachSHK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmupdateCMND.resx">
+      <DependentUpon>frmupdateCMND.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmupdateGKS.resx">
+      <DependentUpon>frmupdateGKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmupdateNT.resx">
+      <DependentUpon>frmupdateNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmupdateSHK.resx">
+      <DependentUpon>frmupdateSHK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNT.resx">
+      <DependentUpon>frmAddNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGKS.resx">
+      <DependentUpon>frmGKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSHK.resx">
+      <DependentUpon>frmSHK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGKS.resx">
+      <DependentUpon>frmAddGKS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quanlyhokhau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mau-background-don-gian-02-1024x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-anh-gia-dinh-dep_035108078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6b8be8f46358da847124aeafb05bc50a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-female-worker-icon-vector-png-image_3668950.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-female-worker-icon-vector-png-image_36689501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-female-worker-icon-vector-png-image_36689502.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-female-worker-icon-vector-png-image_36689503.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14616520231604.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

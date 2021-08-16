@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_Ho_Khau", "main\QL_Ho_Khau.csproj", "{068934E5-D353-46C1-8CCD-3A016787A73D}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Household_Management", "Household_Management\Household_Management.aiproj", "{0DA12F7D-FDB1-4864-9A5E-FBDB7A320F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068934E5-D353-46C1-8CCD-3A016787A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068934E5-D353-46C1-8CCD-3A016787A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068934E5-D353-46C1-8CCD-3A016787A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068934E5-D353-46C1-8CCD-3A016787A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA12F7D-FDB1-4864-9A5E-FBDB7A320F64}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{0DA12F7D-FDB1-4864-9A5E-FBDB7A320F64}.Debug|Any CPU.Build.0 = DefaultBuild
+		{0DA12F7D-FDB1-4864-9A5E-FBDB7A320F64}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{0DA12F7D-FDB1-4864-9A5E-FBDB7A320F64}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\bin\Debug\main.exe.config
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\bin\Debug\main.exe
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\bin\Debug\main.pdb
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.csprojResolveAssemblyReference.cache
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.Form1.resources
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.Properties.Resources.resources
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.csproj.GenerateResource.Cache
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.exe
+E:\Lập trình hướng đối tượng C++\Projects\QLHOKHAU\main\obj\Debug\main.pdb
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\bin\Debug\main.exe.config
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.exe
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.pdb
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\bin\Debug\main.exe
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\bin\Debug\main.pdb
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.csprojResolveAssemblyReference.cache
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.formdangnhap.resources
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.formnguoidan.resources
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.formquanly.resources
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.Properties.Resources.resources
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.csproj.GenerateResource.Cache
+E:\Cơ sỡ dữ liệu\QLHOKHAU\main\obj\Debug\main.formthemnhanthan.resources
+E:\Cơ sỡ dữ liệu\QL_Ho_Khau\main\bin\Debug\main.exe.config
+E:\Cơ sỡ dữ liệu\QL_Ho_Khau\main\obj\Debug\main.exe
+E:\Cơ sỡ dữ liệu\QL_Ho_Khau\main\obj\Debug\main.pdb
